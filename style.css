@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+h2 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-family: sans-serif;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.container {
+  /* border: 1px solid black; */
+  border: none;
+  padding: 1rem;
+  max-width: 45%;
+  width: 450px;
+  margin: 2rem auto;
+  border-radius: 0.6rem;
+  background-color: #afc8ad;
+}
+.sub-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 0.8rem;
+}
+.sub-container img {
+  width: 11%;
+  height: 11%;
+  margin-right: 1rem;
+}
+.sub-container input {
+  border: none;
+  outline: none;
+  background: none;
+  color: #f2f1eb;
+  font-size: 25px;
+  width: 80%;
+  float: left;
+  margin: 0px 10px;
+  padding: 0.4rem;
+  border-bottom: 2px solid whitesmoke;
+  transition: all 0.5s ease-in-out;
+  /* color: white; */
+}
+.sub-container input:hover {
+  border-bottom: 2px solid #092635;
+  color: #1b4242;
+}
+.sub-container div {
+  width: 100%;
+}
+/* .radioBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.radioBtn div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.radioBtn div input {
+  width: 50%;
+  display: inline-block;
+} */
+.sub-container-2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.sub-container-2 img {
+  width: 12%;
+  height: auto;
+  margin-right: 1rem;
+}
+.radioBtn {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  margin-left: 1rem;
+  /* text-align: center; */
+  align-items: center;
+  font-size: 1.5rem;
+}
+.radioBtn div {
+  margin-right: 1rem;
+}
+.submit-btn {
+  margin-top: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.submit-btn input {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: #dfe6e9;
+  transition: background-color 0.5s ease-in;
+}
+.submit-btn input:hover {
+  background-color: #1b4242;
+  color: #dfe6e9;
+  cursor: pointer;
+}
+.submit-btn input:active {
+  background-color: #1b4242e0;
+  color: #dfe6e9;
+  cursor: pointer;
+}
